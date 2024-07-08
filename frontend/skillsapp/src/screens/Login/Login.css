@@ -1,0 +1,36 @@
+.sidebarlogin {
+    width: 300px;
+    background-color: #035fb0;
+    color: white;
+    padding: 20px;
+    width: 130dvh;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.login {
+    display: flex;
+    
+  }
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .image-container {
+    flex: 1; 
+  }
+  
+  .login-form {
+    flex: 2;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }

@@ -1,0 +1,91 @@
+/* Dashboard styles */
+.dashboard {
+    display: flex;
+  }
+
+  /* Sidebar styles */
+  .sidebar {
+    width: 300px;
+    background-color: #5a5a5a;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-box h3 {
+    margin-bottom: 8px;
+  }
+  
+  .sidebar-box a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  
+  .link-box-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed for spacing between the boxes */
+  }
+  
+  .sidebar-box.add-skills {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+    background-color: rgb(3, 94, 192); 
+    border: 1px solid rgb(3, 94, 192); 
+    padding: 10px;
+    width: 48%; 
+  }
+  
+  .sidebar-box.additional-features {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+    background-color: rgb(3, 94, 192);
+    border: 1px solid rgb(3, 94, 192); 
+    padding: 10px;
+    width: 48%; 
+  }
+
+
+
+.sidebar-box-container {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .sidebar-box {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .main-content {
+    display: flex;
+    /* Set the direction to column to stack items vertically */
+    flex-direction: column;
+  }
+  
+  .content-container {
+    display: flex;
+    /* Set the direction to row to display items horizontally */
+    flex-direction: row;
+  }
+  
+  
+  table,tr,th,td{
+    border: 2px solid rgb(2, 2, 2);
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    padding: 7px 7px 7px 7px;
+  }
